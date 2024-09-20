@@ -1,0 +1,554 @@
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/html">
+
+
+
+<head>
+
+    <title>Collaba.pro</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <meta name="description" content="">
+
+    <meta name="keywords" content="">
+
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="css/accordion.css" rel="stylesheet" type="text/css">
+    <link href="css/burger.css" rel="stylesheet" type="text/css">
+    <link href="css/bloggers.css" rel="stylesheet" type="text/css">
+    
+
+
+</head>
+
+
+
+
+
+<body>
+
+
+
+<section class="landing-container">
+
+
+
+    <header class="header">
+
+        <img src="/img/logo.svg" alt="Collaba.pro" class="logo">
+
+        <button id="menu-button"class="menu disappear" onclick="toggle_visibility();this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+            <svg width="50" height="50" viewBox="0 0 100 100">
+            <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+            <path class="line line2" d="M 20,50 H 80" />
+            <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+            </svg>
+        </button>
+
+        <div id="burger" class="burger" style="display: none;">
+            <div class="burger-content">
+                <button class="burger-close"></button>
+                <nav class="nav-links-mobile">
+
+                    <a href="#" class="nav-link">Компаниям</a>
+            
+                    <a href="#" class="nav-link">Блогеру</a>
+            
+                    <a href="#" class="nav-link">Продюсеру</a>
+            
+                    <a href="#" class="nav-link">О нас</a>
+            
+                </nav>
+        
+                <button class="login-button-mobile">Вход / Регистрация</button>
+            </div>
+        </div>
+        <nav class="nav-links" >
+
+            <a href="#" class="nav-link">Компаниям</a>
+    
+            <a href="#" class="nav-link">Блогеру</a>
+    
+            <a href="#" class="nav-link">Продюсеру</a>
+    
+            <a href="#" class="nav-link">О нас</a>
+    
+        </nav>
+
+        <button class="login-button" >Вход / Регистрация</button>
+    </header>
+
+
+
+    <section class="hero-section">
+
+        <div class="hero-content">
+
+            <h1 class="hero-title">Привет, блогер!  Присоединяйся к Collaba
+                и сотрудничай с компаниями
+                и блогерами!
+            </h1>
+
+            <p class="hero-description">Зарабатывай на своем контенте.  Размещай рекламу платно или по-бартеру.</p>
+
+            <button class="cta-button">Начать <span></span></button>
+
+        </div>
+        <div class="hero-phones">
+            <img class="hero-phone-1" src="/img/bloggers/mocap2.png" alt="">
+            <img class="hero-phone-2" src="/img/bloggers/mocap1.png" alt="">
+        </div>
+
+    </section>
+
+
+
+    <div class="content-wrapper">
+
+        <section class="features-section">
+            <div class="features-row">
+                <div class="feature-item">
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/96796cff3f65ee7102bc4dd92b654d63ed15b1680bbb33e443c8242b07009493?placeholderIfAbsent=true&apiKey=da27cf319d704f7ab90f1d1cc3f0913c"
+
+                    alt="Business Icon" class="feature-icon">
+                    <span>
+                        <h1 class="thre-feature-title">13.900</h1>
+                        <p class="thre-feature-description">компаний</p>
+                    </span>
+                </div>
+                <div class="feature-item">
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ec4cd641a193e427b7077bff30e6de410c72579367d226b4daa97c9be966a8f9?placeholderIfAbsent=true&apiKey=da27cf319d704f7ab90f1d1cc3f0913c"
+
+                    alt="Blogger Icon" class="feature-icon">
+                    <span>
+                        <h1 class="thre-feature-title">8.555</h1>
+                        <p class="thre-feature-description">компаний</p>
+                    </span>
+                </div>
+                <div class="feature-item">
+                    <img src="/img/icon_3.png"
+
+                    alt="Producer Icon" class="feature-icon">
+                    <span>
+                        <h1 class="thre-feature-title">86</h1>
+                        <p class="thre-feature-description">компаний</p>
+                    </span>
+                </div>
+            </div>
+
+        </section>
+
+        <h2 class="how-it-works-title">
+
+            <div>Возможности</div>
+        </h2>
+
+        <div class="how-it-works-grid">
+            <div class="how-it-works-wrapper opportunity-wrapper">
+                <div class="opportunity-item">
+                    <div class="opportunity-content">
+                        <div class="opportunity-title">
+                            Активный поиск рекламодателей
+                        </div>
+                        <div class="opportunity-text">
+                            Направляй компаниям предложения о размещении рекламы на ваших каналах и становитесь амбассадорами брендов.
+                        </div>
+                    </div>
+                </div>
+                <div class="opportunity-item">
+                    <div class="opportunity-content">
+                        <div class="opportunity-title">
+                            Коллаборации с другими блогерами
+                        </div>
+                        <div class="opportunity-text">
+                            Находи коллег для совместного продвижения и совместных проектов, интервью. Увеличивайте охваты и собирайте подписчиков.                         </div>
+                    </div>
+                </div>
+                <div class="opportunity-item">
+                    <div class="opportunity-content">
+                        <div class="opportunity-title">
+                            Продвигай фильмы и сериалы
+                        </div>
+                        <div class="opportunity-text">
+                            И не только. Находи сам или откликайся на проекты, которым нужно продвижение в медиасреде.                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-app">
+                <div class="mobile-app-content">
+                    <div style="font-size: 20px; line-height: 28px;"class="mobile-app-header">
+                        <h2>Скачивай мобильное приложение</h2>
+                        <h2 style="color: #FFFFFF80">и будь всегда на связи</h2>
+                    </div>
+                    <div class="mobile-app-advants">
+                        <div class="block-items">
+                        <div class="advant">
+                             
+                            <div>
+                                <h3>Push-оповещения</h3>
+                                <p>Некоторые идеи и анонсы могут
+                                быть актуальны ограниченное время</p>
+                            </div>
+                        </div>
+                        <div class="advant">
+                            <div>
+                                <h3>Оцифрованный профиль</h3>
+                                <p>В профиле есть информация о клиентской
+                                    базе, подписчиках и данные по ЦА</p>
+                            </div>
+                        </div>
+                        <div class="advant">
+                             
+                            <div>
+                                <h3>Прайс-лист в профиле</h3>
+                                <p>Прайс-лист бизнеса доступен, во время
+                                    диалога, а для блогера - всегда открыт</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="block-items">
+                        <div class="advant">
+                             
+                            <div>
+                                <h3>Кросс-ролевое взаимодействие</h3>
+                                <p>На платформе возможна коммуникация
+                                    между бизнесами, блогерами и продюсерами</p>
+                            </div>
+                        </div>
+                        <div class="advant">
+                             
+                            <div>
+                                <h3>Оцифрованный профиль</h3>
+                                <p>Возможность назначать и отслеживать этапы
+                                    коммуникации, как в CRM.</p>
+                            </div>
+                        </div>
+                        <div class="advant">
+                             
+                            <div>
+                                <h3>Поиск партнеров</h3>
+                                <p>Находите компании и предложения через поиск
+                                    или предлагайте свои тем, у кого есть ваша ЦА</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="mobile-app-downloads">
+                        <div><img src="img/googlePlay.svg" alt=""></div>
+                        <div><img src="img/appStore.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="mobile-app-image">
+                    <img src="img/iphoneMobileApp.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+        <h2 class="how-it-works-title">
+
+            <div>Как работает Collaba <a href="/"></a></div>
+
+        </h2>
+
+
+
+        <div class="how-it-works-grid">
+            <div class="how-it-works-wrapper">
+            <div class="how-it-works-spin"></div>
+
+            <div class="how-it-works-row">
+
+                <div class="how-it-works-column">
+
+                    <div class="how-it-works-card">
+
+                        <div class="step-icon"></div>
+
+                        <h3 class="feature-title">Регистрация<br>и проверка<br>документов</h3>
+
+                        <p class="feature-description">Пройдите простую регистрацию и загрузите необходимые документы.
+
+                            Доверие рождается из верификации.</p>
+
+                        <span class="step-number">01</span>
+
+                    </div>
+
+                </div>
+
+                <div class="how-it-works-column">
+
+                    <div class="how-it-works-card">
+
+                        <div class="step-icon"></div>
+
+                        <h3 class="feature-title">Заполнение<br>профиля<br>и прайс-листа</h3>
+
+                        <p class="feature-description">Укажите параметры целевой аудитории, географию деятельности и
+
+                            интересы. Выберите форматы рекламы и продакт-плейсмента, которые вы можете предоставить
+
+                            партнерам.</p>
+
+                        <span class="step-number">02</span>
+
+                    </div>
+
+                </div>
+
+                <div class="how-it-works-column">
+
+                    <div class="how-it-works-card">
+
+                        <div class="step-icon"></div>
+
+                        <h3 class="feature-title">Поиск партнеров<br>среди компаний<br>и блогеров</h3>
+
+                        <p class="feature-description">Используйте фильтры для поиска подходящих компаний и блогеров.
+
+                            Общайтесь напрямую в чате или публикуйте объявления о поиске рекламодателей под свой
+
+                            запрос.</p>
+
+                        <span class="step-number">03</span>
+
+                    </div>
+
+                </div>
+
+                <div class="how-it-works-column">
+
+                    <div class="how-it-works-card">
+
+                        <div class="step-icon"></div>
+
+                        <h3 class="feature-title">Запуск рекламных<br>проектов<br>без посредников</h3>
+
+                        <p class="feature-description">Согласуйте условия, материалы и начинайте взаимные рекламные
+
+                            кампании по бартеру или на коммерческих условиях. Ваша реклама на ваших условиях.</p>
+
+                        <span class="step-number">04</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+
+
+            
+            <div class="accordion faq">
+                <h2 style="color: black">Ваши <span style="color:#FF6C46">вопросы<br> и ответы</span></h2>
+                <div class="accordion-item">
+                  <div class="accordion-item-header">Бизнес может размещать у себя рекламу на платной основе?</div>
+                  <div class="accordion-item-body">
+                    <div class="accordion-item-body-content">
+                      Web Development broadly refers to the tasks associated with
+                      developing functional websites and applications for the Internet.
+                      The web development process includes web design, web content
+                      development, client-side/server-side scripting and network security
+                      configuration, among other tasks.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-item-header">Блогер может написать другому блогеру?</div>
+                  <div class="accordion-item-body">
+                    <div class="accordion-item-body-content">
+                        Да. Идея в том, чтобы каждый блогер имел возможность связаться с другим блогером и договориться о совместном выпуске с другим блогером или пригласить на интервью или сделать что-то вместе с пользой для двоих. Ответят вам или нет, это второй вопрос, но мы надеемся что наша платформа позволит обмениваться подписчиками и развивать свои медиа-ресурсы, быстрее расти и больше зарабатывать на рекламе.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-item-header">
+                    Блогеру можно искать рекламодателей самостоятельно?
+                  </div>
+                  <div class="accordion-item-body">
+                    <div class="accordion-item-body-content">
+                      <ul style="padding-left: 1rem">
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Frameworks (CSS and JavaScript frameworks)</li>
+                        <li>Responsive Design</li>
+                        <li>Version Control/Git</li>
+                        <li>Testing/Debugging</li>
+                        <li>Browser Developer Tools</li>
+                        <li>Web Performance</li>
+                        <li>SEO (Search Engine Optimization)</li>
+                        <!-- <li>CSS Preprocessing</li> -->
+                        <li>Command Line</li>
+                        <li>CMS (Content Management System)</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-item-header">Можно ли познакомиться на Collabe, а общаться в Telegram?</div>
+                  <div class="accordion-item-body">
+                    <div class="accordion-item-body-content">
+                      HTTP, aka HyperText Transfer Protocol, is the underlying protocol
+                      used by the World Wide Web and this protocol defines how messages
+                      are formatted and transmitted, and what actions Web servers and
+                      browsers should take in response to various commands.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-item-header">В чем подвох?</div>
+                  <div class="accordion-item-body">
+                    <div class="accordion-item-body-content">
+                      CORS, aka Cross-Origin Resource Sharing, is a mechanism that enables
+                      many resources (e.g. images, stylesheets, scripts, fonts) on a web
+                      page to be requested from another domain outside the domain from
+                      which the resource originated.
+                    </div>
+                  </div>
+                </div>
+
+            <!-- <div class="faq">
+                <h2>Ваши <span style="color:#FF6C46">вопросы<br> и ответы</span></h2>
+                <div class="faq-accordion">
+                    <label for="panel_1"><p>Бизнес может размещать у себя рекламу на платной основе?</p>
+                    </label>
+                    <input type="radio" name="panel" id="panel_1">
+                    <div class="collapsible">
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pellentesque consectetur nisi. Vivamus lacinia tempus laoreet. Pellentesque vehicula sollicitudin orci, in convallis nibh aliquam ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean facilisis metus at velit consectetur commodo. Nunc dolor nibh, cursus quis accumsan faucibus, viverra bibendum magna. Sed id convallis nisi. Quisque a orci sed ligula pellentesque pellentesque. Integer molestie, enim sit amet sodales pharetra, nunc risus gravida dolor, quis placerat elit erat sagittis justo. Nulla nec lacus varius, tempus ipsum in, rutrum purus. Sed ornare neque nec leo suscipit eleifend. Maecenas in ante at lorem ultrices lobortis. Morbi malesuada, nisi ac ornare dignissim, lacus dui euismod ipsum, et porttitor velit leo quis lacus. Suspendisse potenti.</p>
+                    </div>
+                    <label for="panel_2">Блогер может написать другому блогеру?</label>
+
+                    <input type="radio" name="panel" id="panel_2">
+
+                    <div class="collapsible">
+                        <br>
+                        <p>Да. Идея в том, чтобы каждый блогер имел возможность связаться с другим блогером и договориться о совместном выпуске с другим блогером или пригласить на интервью или сделать что-то вместе с пользой для двоих. Ответят вам или нет, это второй вопрос, но мы надеемся что наша платформа позволит обмениваться подписчиками и развивать свои медиа-ресурсы, быстрее расти и больше зарабатывать на рекламе.</p>
+                    </div>
+                    <label for="panel_3">Блогеру можно искать рекламодателей самостоятельно?</label>
+                    <input type="radio" name="panel" id="panel_3" checked>
+                    <div class="collapsible">
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pellentesque consectetur nisi. Vivamus lacinia tempus laoreet. Pellentesque vehicula sollicitudin orci, in convallis nibh aliquam ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean facilisis metus at velit consectetur commodo. Nunc dolor nibh, cursus quis accumsan faucibus, viverra bibendum magna. Sed id convallis nisi. Quisque a orci sed ligula pellentesque pellentesque. Integer molestie, enim sit amet sodales pharetra, nunc risus gravida dolor, quis placerat elit erat sagittis justo. Nulla nec lacus varius, tempus ipsum in, rutrum purus. Sed ornare neque nec leo suscipit eleifend. Maecenas in ante at lorem ultrices lobortis. Morbi malesuada, nisi ac ornare dignissim, lacus dui euismod ipsum, et porttitor velit leo quis lacus. Suspendisse potenti.</p>
+                    </div>
+                    <label for="panel_4">Можно ли познакомиться на Collabe, а общаться в Telegram?</label>
+                    <input type="radio" name="panel" id="panel_4" checked>
+                    <div class="collapsible">
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pellentesque consectetur nisi. Vivamus lacinia tempus laoreet. Pellentesque vehicula sollicitudin orci, in convallis nibh aliquam ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean facilisis metus at velit consectetur commodo. Nunc dolor nibh, cursus quis accumsan faucibus, viverra bibendum magna. Sed id convallis nisi. Quisque a orci sed ligula pellentesque pellentesque. Integer molestie, enim sit amet sodales pharetra, nunc risus gravida dolor, quis placerat elit erat sagittis justo. Nulla nec lacus varius, tempus ipsum in, rutrum purus. Sed ornare neque nec leo suscipit eleifend. Maecenas in ante at lorem ultrices lobortis. Morbi malesuada, nisi ac ornare dignissim, lacus dui euismod ipsum, et porttitor velit leo quis lacus. Suspendisse potenti.</p>
+                    </div>
+                    <label for="panel_5">В чем подвох?</label>
+                    <input type="radio" name="panel" id="panel_5" checked>
+                    <div class="collapsible">
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pellentesque consectetur nisi. Vivamus lacinia tempus laoreet. Pellentesque vehicula sollicitudin orci, in convallis nibh aliquam ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean facilisis metus at velit consectetur commodo. Nunc dolor nibh, cursus quis accumsan faucibus, viverra bibendum magna. Sed id convallis nisi. Quisque a orci sed ligula pellentesque pellentesque. Integer molestie, enim sit amet sodales pharetra, nunc risus gravida dolor, quis placerat elit erat sagittis justo. Nulla nec lacus varius, tempus ipsum in, rutrum purus. Sed ornare neque nec leo suscipit eleifend. Maecenas in ante at lorem ultrices lobortis. Morbi malesuada, nisi ac ornare dignissim, lacus dui euismod ipsum, et porttitor velit leo quis lacus. Suspendisse potenti.</p>
+                    </div>
+                </div>
+            </div> -->
+
+
+        </div>
+
+
+
+
+
+
+
+    </div><!-- END .content-wrapper -->
+
+
+
+
+
+
+
+
+</section>
+
+<div class="form-probe landing-container">
+    <div class="probe-content">
+        <div class="probe-text">
+            <div class="probe-header">
+                <h3>Оставьте заявку <span style="color: rgba(61, 90, 210, 0.50);">и получите<br>
+                7 дней бесплатного периода</span></h3>
+                <p>Мало? Первые 3 000 пользователей получат 1 месяц бесплатного
+                    использования сервиса*</p>
+            </div>
+            <form action="">
+                <div class="mail-input">
+                    <input type="mail" placeholder="Электронная почта">
+                    <img src="/img/email.svg" alt="">
+                </div>
+                <button class="form-button gift-button-1">Отправить</button>
+            </form>
+
+            <!--<div class="uni-form_wr">
+                <div id="unisender-subscribe-form"
+                     data-url="https://cp.unisender.com/ru/v5/subscribe-form/view/6xa36g7e51ht7dtefmqnx31gpeocn9ubu8ffe8fe"
+                     data-settings="6bmjo59xkfuo58bx8jj154i3cm7iurxjy1771afoyj5zf7u4pejiy"></div>
+                <script src="https://sf2df4j6wzf.s3.eu-central-1.amazonaws.com/popups/popup.js"></script>
+                <script>
+                    window.popupForSubscriptionsForm("https://apig.unisender.com");
+                </script>
+            </div>-->
+
+        </div>
+        <div class="probe-image">
+            <img src="/img/probe.png" alt="">
+        </div>
+    </div>
+</div>
+
+<footer class="landing-container">
+    <div class="footer-content">
+        <div class="footer-info">
+            <div class="footer-content-column">
+                <div class="footer-logo">
+                    <img style="width: 113px; height: 20px;" src="/img/logo.svg" alt="">
+                    <p>Collaba - территория для кросс-маркетинга и коллабораций</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Компаниям</a>
+                    <a href="#">Блогеру</a>
+                    <a href="#">Продюссеру</a>
+                    <a href="#">О нас</a>
+                    <a style="color: blue" href="#">Политика конфиденциальности</a>
+                    <a style="color: blue" href="#">Публичная оферта</a>
+                </div>
+            </div>
+            <div class="footer-specials">
+                <button class="gift-button-1" style="width: 182px; height: 50px; font-size: 14px; border-radius: 56px;
+                background: linear-gradient(90deg, #FF6C46 0%, #E44820 100%);
+                box-shadow: 0px 0px 50px 0px rgba(255, 108, 70, 0.40);" >Вход / Регистрация</button>
+                <div class="mail-button">
+                    <img src="/img/email-black.svg" alt="">
+                    <a href="#">invoice@collaba.pro</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            © 2024. Все права защищены ООО "COLLABA"
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+<script type="text/javascript" src="/js/script.js"></script>
+<script type="text/javascript" src="/js/accordion.js"></script>
+<script type="text/javascript" src="/js/burger.js"></script>
+
+
+</body>
+
+
+
+</html>

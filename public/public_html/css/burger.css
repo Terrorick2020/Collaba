@@ -1,0 +1,143 @@
+
+.burger{
+    display: block;
+    position: absolute;
+    top: 65px;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: white;
+    z-index: 10;
+    box-shadow: -6px 4px 8px -5px rgba(34, 60, 80, 0.2);
+    animation: showBurger 0.5s ease forwards;
+
+}
+
+
+
+.burger-content{
+    padding-top: 20px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-links-mobile{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+.login-button-mobile{
+    position: relative;
+    border-radius: 56px;
+    background: linear-gradient(90deg, #FF6C46 0%, #E44820 100%);
+    box-shadow: 0 0 50px 0 rgba(255, 108, 70, 0.40);
+    align-self: stretch;
+    color: #ffffff;
+    font: 14px / 1 Manrope, sans-serif;
+    font-weight: 800;
+    padding: 18px 0 18px 0;
+    width: 182px;
+    height: 50px;
+    flex-shrink: 0;
+    margin: 15px 15px 0 0;
+    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    letter-spacing: -0.38px;
+    width: 200px;
+    margin: 20px auto;
+}
+.login-button-mobile:hover {
+    color: #ffffff;
+    background: linear-gradient(150deg, #FF6C46 0%, #E44820 100%);
+    box-shadow: 0 0 10px 0 rgba(255, 108, 70, 0.70);
+}
+
+.menu {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    margin-right: 15px;
+  }
+  .line {
+    fill: none;
+    stroke: black;
+    stroke-width: 6;
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+      stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .line1 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+  }
+  .line2 {
+    stroke-dasharray: 60 60;
+    stroke-width: 6;
+  }
+  .line3 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+  }
+  .opened .line1 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+  }
+  .opened .line2 {
+    stroke-dasharray: 1 60;
+    stroke-dashoffset: -30;
+    stroke-width: 6;
+  }
+  .opened .line3 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+  }
+
+  
+/* Анимация появления */
+@keyframes appear {
+    100% {
+      opacity: 0;
+      transform: translateX(100%); /* Исходное положение слева */
+    }
+    0% {
+      opacity: 1;
+      transform: translateX(0); /* Конечная0% позиция по центру */
+    }
+  }
+  
+  /* Анимация исчезновения */
+  @keyframes disappear {
+    100% {
+      opacity: 1;
+      transform: translateX(0); /* Исходная позиция по центру */
+    }
+    0% {
+      opacity: 0;
+      transform: translateX(+100%); /* Конечная позиция справа */
+   }
+  }
+
+  /* Применение анимаций к блоку */
+  #burger {
+    /* Ваш обычный стиль для бургер меню */
+    animation: appear 0.5s ease forwards; /* Анимация появления */
+  }
+  
+#burger.disappear {
+    animation: disappear 0.5s ease forwards; /* Анимация исчезновения */
+  }
+  
+  @media (max-width: 468px) {
+    .burger {
+      width: 100%;
+      height: 100vh;
+      z-index: 10000;
+  }
+  }

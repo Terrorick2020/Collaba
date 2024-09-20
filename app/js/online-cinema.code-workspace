@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../../online-cinema"
+		},
+		{
+			"path": "../../../New_Last_Vue_plust_Express/backend"
+		},
+		{
+			"path": "../../../tz"
+		},
+		{
+			"path": "../../../js_intensive"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "CollabaTeam"
+	}
+}
